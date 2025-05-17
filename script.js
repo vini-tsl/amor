@@ -1,4 +1,4 @@
-const dataInicio = new Date('2025-03-07T16:20:00');
+const dataInicio = new Date('2025-04-07T16:20:00');
 let intervalo;
 
 function calcularTempo() {
