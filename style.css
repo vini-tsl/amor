@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fce4ec;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+input[type="button"] {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff80ab;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+input[type="button"]:hover {
+    background-color: #ff4081;
+}
+
+#mensagem {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #d81b60;
+    font-weight: bold;
+    animation: pulsar 1s infinite;
+}
+
+@keyframes pulsar {
+    0% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.6; transform: scale(1.05); }
+    100% { opacity: 1; transform: scale(1); }
+}
